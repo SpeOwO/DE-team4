@@ -106,8 +106,8 @@
 
 
 ### 🔧 자세한 사항은...
-- [아키텍처 다이어그램](https://github.com/softeer5th/DE-team4/tree/main/AWS)
-- [Step Function](https://github.com/softeer5th/DE-team4/tree/main/StepFunction)
+- [아키텍처 다이어그램](https://github.com/SpeOwO/DE-team4/tree/main/AWS)
+- [Step Function](https://github.com/SpeOwO/DE-team4/tree/main/StepFunction)
 
 ---
 

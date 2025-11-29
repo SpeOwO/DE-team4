@@ -48,7 +48,7 @@ AWS Management Console에서 **Redshift Serverless**의 연결 정보를 확인�
 - **각 차종명을 클릭하면 디테일 페이지로 이동**하여 상세 분석 가능.
 - 라인 차트(Line Chart)를 통해 최근 1년간 차종별 커뮤니티 조회수 총합을 시각화하여 **소비자 관심도 추이**를 확인 가능.
 
-<img width="1510" alt="Image" src="https://github.com/user-attachments/assets/e284557c-0730-4836-9d6e-7d98205e0a4e" />
+<img width="1510" height="914" alt="416177954-e284557c-0730-4836-9d6e-7d98205e0a4e" src="https://github.com/user-attachments/assets/814a5f2d-7f1f-4770-b40c-aa17e94d7bb3" />
 
 
 #### **🚗 Car Page (차량 상세 페이지)**
@@ -56,7 +56,8 @@ AWS Management Console에서 **Redshift Serverless**의 연결 정보를 확인�
 - **소비자의 실제 반응과 비교**하여 기대와 실제 차이를 분석 가능.
 - 각 셀링 포인트에 대한 소비자 댓글 및 피드백을 시각적으로 표현하여, **긍정/부정 반응을 구분**할 수 있도록 구성.
 
-<img width="1510" alt="Image" src="https://github.com/user-attachments/assets/a87a6b80-1e96-41e6-99a2-414dd467b281" />
+<img width="1510" height="914" alt="416178213-a87a6b80-1e96-41e6-99a2-414dd467b281" src="https://github.com/user-attachments/assets/b1517214-3dd9-4f98-912e-5067fde74a54" />
+
 
 
 ##### **Today’s Community Monitoring**
@@ -85,3 +86,4 @@ AWS Management Console에서 **Redshift Serverless**의 연결 정보를 확인�
 ##### 📌 Tableau의 자동 새로고침 기능을 활용하여, 데이터가 갱신될 때 대시보드가 자동으로 업데이트됩니다.
 
 ---
+

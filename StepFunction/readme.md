@@ -1,4 +1,4 @@
-# Step Function Flow Documentation
+<img width="1048" height="377" alt="416038623-4f5b1b2c-d5c5-4a2c-b7bc-f8c4de5daf47" src="https://github.com/user-attachments/assets/8d900700-d5d2-4ff9-aae2-34d758dd1fcb" /># Step Function Flow Documentation
 ### Overview
 이 Step Function은 HTML 수집, 파싱, 데이터 병합 후 EMR 클러스터를 생성하여 Spark Job을 실행하고, 결과를 Redshift로 로드하는 전체 파이프라인을 구현합니다. 오류 발생 시 각 단계마다 로그를 남겨 문제를 추적할 수 있도록 구성되어 있습니다.
 
@@ -16,7 +16,8 @@
     - 여러 크롤러에서 얻은 결과를 하나로 병합하기 위해 `merge_lambda`를 호출합니다.
     - 분기 중 일부에서 오류가 발생하면 병합 단계에서는 해당 데이터를 제외하고 병합하게 됩니다. 병합할 오늘자 데이터가 전혀 없는 경우는 에러를 로깅한 후 병합을 종료합니다.
     - 병합 결과의 상태가 "Merge process completed"이면 다음 단계로 진행하고, 그렇지 않으면 에러를 로깅하고 종료합니다.
-<img width="1048" alt="Image" src="https://github.com/user-attachments/assets/4f5b1b2c-d5c5-4a2c-b7bc-f8c4de5daf47" />
+<img width="1048" height="377" alt="416038623-4f5b1b2c-d5c5-4a2c-b7bc-f8c4de5daf47" src="https://github.com/user-attachments/assets/dfbe4c21-cdfe-4019-90cd-8583b31765ab" />
+
 
 4. **EMR 클러스터 생성 및 Spark Job 실행**
     - **LaunchEMRCluster:** EMR 클러스터를 생성합니다.
@@ -30,4 +31,5 @@
     - **RedshiftLoad:** 클러스터 종료 후, `redshift_load` Lambda 함수를 호출하여 Redshift로 데이터를 적재합니다.
     - 오류 발생 시, 별도의 에러 로깅 단계를 거칩니다.
       
-<img width="689" alt="Image" src="https://github.com/user-attachments/assets/caadd198-2243-4774-a88c-6b2c6c5af1f3" />
+<img width="689" height="654" alt="416038678-caadd198-2243-4774-a88c-6b2c6c5af1f3" src="https://github.com/user-attachments/assets/dda2b1b2-9bf1-4134-bd63-68b9995e7836" />
+

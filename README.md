@@ -43,7 +43,7 @@
 
 ## 📊 대시보드 소개
 
-![Image](https://github.com/user-attachments/assets/19b665e1-8368-435f-aa4e-5ff1c88468d5)
+![416183494-19b665e1-8368-435f-aa4e-5ff1c88468d5](https://github.com/user-attachments/assets/292d00d3-2190-47cd-8c13-7be09d9e0141)
 
 ### 📌 주요 지표
 - **게시글 및 댓글 트렌드 분석**
@@ -64,7 +64,8 @@
 
 ### 🚨 Alarm
 - 화제도를 기준으로 특정 수치(Threshold)를 초과하면 Slack으로 게시글 알림을 자동으로 전송하는 기능 구현
-![Image](https://github.com/user-attachments/assets/6afcdbde-6628-4283-acfb-0787f890ec06)
+<img width="1120" height="534" alt="416261775-6afcdbde-6628-4283-acfb-0787f890ec06" src="https://github.com/user-attachments/assets/6adba938-9572-4336-b940-71c6f16ae62b" />
+
 
 
 ### Dashboard 상세 설명
@@ -98,10 +99,10 @@
 ## 🏗️ 아키텍처 구성
 
 ### 🔧 아키텍처 다이어그램
-<img width="1073" alt="Image" src="https://github.com/user-attachments/assets/8724207e-803d-4d31-af13-ccbcfdebd615" />
+<img width="1073" height="735" alt="416152064-8724207e-803d-4d31-af13-ccbcfdebd615" src="https://github.com/user-attachments/assets/db5dfc37-88e3-4efb-880b-27e374f113da" />
 
 ### 🔧 Step Function flow
-<img width="835" alt="Image" src="https://github.com/user-attachments/assets/8fb67526-5dde-468a-8172-6141070d2070" />
+<img width="835" height="595" alt="416160473-8fb67526-5dde-468a-8172-6141070d2070" src="https://github.com/user-attachments/assets/c18e4b61-96e3-4f39-bb9f-5b6260e813eb" />
 
 
 ### 🔧 자세한 사항은...

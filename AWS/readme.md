@@ -1,6 +1,7 @@
 # 📌 Data Pipeline Overview
 
-<img width="1073" alt="Image" src="https://github.com/user-attachments/assets/8724207e-803d-4d31-af13-ccbcfdebd615" />
+<img width="1073" height="735" alt="416152064-8724207e-803d-4d31-af13-ccbcfdebd615 (1)" src="https://github.com/user-attachments/assets/38692e9f-7ec7-4c42-8833-167a4f9a5ef6" />
+
 
 본 문서는 **데이터 크롤링, 처리, 적재 및 분석**을 자동화하는 **데이터 파이프라인**의 구조를 설명합니다.  해당 파이프라인은 **AWS Step Functions**, **Lambda**, **EMR(Spark)**, **Redshift**, **S3**, **Tableau** 등을 활용하여 운영됩니다.
 
@@ -67,4 +68,5 @@
 ## 📊 4. Tableau 대시보드 연동
 - **Redshift 및 S3 데이터를 기반으로 Tableau에서 시각화**를 수행합니다.
 - **Dead Data / Live Data**를 분석하여 **트렌드 및 키워드 분석**을 지원합니다.
+
 
